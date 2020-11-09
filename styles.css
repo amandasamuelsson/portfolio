@@ -36,8 +36,8 @@ body {
 /* Styling main */
 
 .grid-main {
-    background-color: mintcream;
-    background-image: url(./images/backg1.png);
+    background-color: lavenderblush;
+    /* background-image: url(./images/backg1.png); */
     height: 40rem;
 }
 
@@ -69,6 +69,31 @@ a {
 }
 
 .logo {
+    margin-top: 1rem;
     display: flex;
     margin-bottom: 1.3rem;
+    margin-right: 8rem;
 }
+
+.soc-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 2rem;
+}
+.HEJ {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fa-github-square {
+    margin: 1rem;
+}
+
+.fa-linkedin {
+    margin-top: 1rem;
+    margin-right: .3rem;
+}
+
+
+

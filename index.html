@@ -3,26 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./slider.css">
     <script defer src="./main.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Portfolio</title>
 </head>
 <body>
     <div class="grid-container" id="grid-container">
 
-        <div class="grid-header">Header
-
-            <div class="logo align-items justify-content" id="logo"></div>
-
+        <div class="grid-header">
+            <div class="HEJ">
+                <div class="logo align-items justify-content" id="logo"></div>
+                <div id="soc-icons" class="soc-icons">
+                    <a href="index.html" class="fab fa-github-square"></a>
+                    <a href="index.html" class="fab fa-linkedin"></a>
+                </div>
+            </div>
             <ul class="header-menu align-items justiy-content" id="header-menu">
                 <li><a href="about.html">om mig</a></li>
                 <li><a href="projects.html">projekt</a></li>
-                <li><a href="contact.html">kontakt</a></li>
                 <li><a href="experience.html">erfarenhet</a></li>
+                <li><a href="contact.html">kontakt</a></li>
             </ul>
         </div>
-        <div class="grid-main">Main</div>  
+        <div class="grid-main">Main
+            <!-- Slideshow -->
+            <div id="slideShow" class="slideshow-container">
+                <img class="show" src="./images/autumn.jpg" alt="">
+                <img src="./images/winter.jpg" alt="">
+                <img src="./images/spring.jpg" alt="">
+                <img src="./images/summer.jpg" alt="">
+            </div>
+            <div id="about" class="about">  
+            </div>
+            <div id="projects" class="projects">  
+            </div>
+            <div id="experience" class="experience">  
+            </div>
+            <div id="contact" class="contact">  
+            </div>
+        </div>  
         <div class="grid-footer">Footer</div>
       </div>
 </body>
