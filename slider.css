@@ -1,15 +1,11 @@
-
-html {height: 100%;}
 body {
     margin: 0;
-    background-color: #666666;
-    height: 100%;
 }
 
 .slideshow-container {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 35rem;
 }
 
 .slideshow-container > img {
@@ -17,7 +13,7 @@ body {
     left: 0;
     top: 0;
     width: 100%;
-    height: 30rem;
+    height: 35rem;
     opacity: 0;
     transition: opacity 3s;
     object-fit: cover;

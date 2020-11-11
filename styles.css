@@ -1,3 +1,8 @@
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'Inter', sans-serif;
@@ -36,9 +41,10 @@ body {
 /* Styling main */
 
 .grid-main {
-    background-color: lavenderblush;
-    /* background-image: url(./images/backg1.png); */
-    height: 40rem;
+    background-image: url(./images/cow2.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: repeat;
 }
 
 /* Styling footer */
@@ -48,19 +54,20 @@ body {
 }
 
 .header-menu {
-    list-style-type: none;
     display: flex;
     align-items: center;
     justify-content: center;
+    list-style-type: none;
     color: white;
     
 }
 
-li {
+.header-menu li a {
+    display: in;
     padding: 0rem 1rem;
     font-weight: 500;
     font-size: 1.1rem;
-    color: white;
+    color: white;   
 }
 
 a {
@@ -68,22 +75,54 @@ a {
     text-decoration: none;
 }
 
-.logo {
-    margin-top: 1rem;
-    display: flex;
-    margin-bottom: 1.3rem;
-    margin-right: 8rem;
+.hamburger {
+    border: 0;
+    background-color: transparent;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+    color: #ffffff;
+}
+@media screen and (max-width: 767px) {
+    .header-menu {
+        display: none;
+    }
+    .header-menu.displaymenu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .hamburger {
+        display: block;
+    }
+
 }
 
+/* Logotype  */
+.logo {
+    display: flex;
+    flex: 20;
+    width: auto;
+    margin-left: 6rem;
+    margin-top: 1rem;
+    margin-bottom: 1.3rem;
+}
+
+img {
+    width: 35rem;
+    height: auto;
+}
+
+/* Social media icons  */
 .soc-icons {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    flex: 1;
     font-size: 2rem;
 }
-.HEJ {
+
+.header-group {
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
 }
 
 .fa-github-square {
@@ -93,6 +132,30 @@ a {
 .fa-linkedin {
     margin-top: 1rem;
     margin-right: .3rem;
+}
+
+/* Website content */
+.content {
+    display: flex;
+    height: 100%;
+}
+.about {
+    height: 40rem;
+    background-color: lightpink;
+}
+.projects {
+    height: 40rem;
+    background-color: lightsalmon;
+}
+.experience {
+    height: 40rem;
+    background-color: lightblue;
+
+}
+.contact {
+    height: 40rem;
+    background-color: lightgreen;
+
 }
 
 

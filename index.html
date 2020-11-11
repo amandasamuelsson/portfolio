@@ -4,28 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">    <link rel="stylesheet" href="./styles.css">
-    <link rel="stylesheet" href="./slider.css">
-    <script defer src="./main.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./slider.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <script defer src="./main.js"></script>
+    <script src="./smooth-scroll.js"></script>
     <title>Portfolio</title>
 </head>
 <body>
     <div class="grid-container" id="grid-container">
-
+        <!-- Header -->
         <div class="grid-header">
-            <div class="HEJ">
+            <div class="header-group">
                 <div class="logo align-items justify-content" id="logo"></div>
                 <div id="soc-icons" class="soc-icons">
-                    <a href="index.html" class="fab fa-github-square"></a>
-                    <a href="index.html" class="fab fa-linkedin"></a>
+                    <a href="https://github.com/amandasamuelsson" target="_blank" class="fab fa-github-square"></a>
+                    <a href="https://linkedin.com/in/amanda-samuelsson-85b4261b5" class="fab fa-linkedin"></a>
                 </div>
             </div>
-            <ul class="header-menu align-items justiy-content" id="header-menu">
-                <li><a href="about.html">om mig</a></li>
-                <li><a href="projects.html">projekt</a></li>
-                <li><a href="experience.html">erfarenhet</a></li>
-                <li><a href="contact.html">kontakt</a></li>
-            </ul>
+            <!-- Header menu -->
+            <nav>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+   
+                <ul class="header-menu align-items justiy-content" id="header-menu">
+                    <li><a href="#about">om mig</a></li>
+                    <li><a href="#projects">projekt</a></li>
+                    <li><a href="#experience">erfarenhet</a></li>
+                    <li><a href="#contact">kontakt</a></li>
+                </ul>
+            </nav>
         </div>
         <div class="grid-main">Main
             <!-- Slideshow -->
@@ -35,15 +46,19 @@
                 <img src="./images/spring.jpg" alt="">
                 <img src="./images/summer.jpg" alt="">
             </div>
-            <div id="about" class="about">  
-            </div>
-            <div id="projects" class="projects">  
-            </div>
-            <div id="experience" class="experience">  
-            </div>
-            <div id="contact" class="contact">  
-            </div>
+            <!-- Content -->
+            <!-- <div id="content" class="content"> -->
+                <div id="about" class="about">  
+                </div>
+                <div id="projects" class="projects">  
+                </div>
+                <div id="experience" class="experience">  
+                </div>
+                <div id="contact" class="contact">  
+                </div>
+            <!-- </div> -->
         </div>  
+        <!-- Footer -->
         <div class="grid-footer">Footer</div>
       </div>
 </body>

@@ -1,0 +1,5 @@
+# Comments
+launch.json
+
+#Ignore in every subfolder 
+**/.DS_Store

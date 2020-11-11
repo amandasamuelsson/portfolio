@@ -1,5 +1,6 @@
 window.addEventListener('load', main);
 
+//  Adding image
 const img = document.createElement("img");
 
 img.src = "logo.png";
@@ -7,15 +8,25 @@ var src = document.getElementById("logo");
 
 src.appendChild(img);
 
+
 function main() {
     startSlideshowAnimation();
+    addEventListeners();
+}
+//Hamburger menu 
+const hamburger = document.getElementById('hamburger');
+const navUL = document.getElementById('header-menu');
+
+function addEventListeners() {
+    navUL.classList.toggle('displaymenu');  
+
 }
 
+// Slideshow 
 function startSlideshowAnimation() {
-    setInterval(changeActiveImage, 5000)
+    setInterval(changeActiveImage, 10000)
     changeActiveImage();
 }
-
 function changeActiveImage() {
     const images = document.querySelectorAll('.slideshow-container > img');
 
@@ -36,3 +47,4 @@ function changeActiveImage() {
         }
     }
 }
+
