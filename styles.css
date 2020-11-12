@@ -7,6 +7,11 @@ body {
     margin: 0;
     font-family: 'Inter', sans-serif;
     height: 100%;
+    background-image: url(./images/cow2.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: repeat;
+
 }
 /* Grid */
 .grid-header { grid-area: header; }
@@ -41,10 +46,8 @@ body {
 /* Styling main */
 
 .grid-main {
-    background-image: url(./images/cow2.png);
-    background-size: 100%;
-    background-position: center;
-    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Styling footer */
@@ -109,7 +112,6 @@ a {
     flex: 1;
     font-size: 2.5rem;
     justify-content: flex-end;
-    
 }
 
 .logoimg {
@@ -136,23 +138,29 @@ a {
     display: flex;
     height: 100%;
 }
+.experience {
+    height: 40rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 1rem;
+    margin: 2rem;
+    color: #313131;
+
+}
+
 .about {
     height: 40rem;
-    background-color: lavenderblush;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 1rem;
+    margin: 2rem;
 }
+
 .projects {
     height: 40rem;
     background-color: lightsalmon;
 }
-.experience {
-    height: 40rem;
-    background-color: lightblue;
-
-}
 .contact {
     height: 40rem;
     background-color: lightgreen;
-
 }
 
 /* Back to top button styling  */
