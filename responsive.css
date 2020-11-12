@@ -21,11 +21,21 @@
     .header-menu.displaymenu {
         display: flex;
         flex-direction: column;
-        width: 100%;
     }
 
     .hamburger {
-        display: block;
+        display: flex;
+        justify-content: center;
+    }
+  
+
+    .header-menu li a {
+        display: in;
+        padding: 0rem 1rem;
+        font-weight: 500;
+        font-size: 1.1rem;
+        margin: .3rem;
+        color: white;   
     }
 }
 
