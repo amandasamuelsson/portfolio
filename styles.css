@@ -83,33 +83,20 @@ a {
     display: none;
     color: #ffffff;
 }
-@media screen and (max-width: 767px) {
-    .header-menu {
-        display: none;
-    }
-    .header-menu.displaymenu {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-    .hamburger {
-        display: block;
-    }
 
-}
 
 /* Logotype  */
 .logo {
     display: flex;
-    flex: 20;
-    width: auto;
-    margin-left: 6rem;
+    flex: 10;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10rem;
+    width: 100%;
     margin-top: 1rem;
-    margin-bottom: 1.3rem;
 }
 
-img {
-    width: 35rem;
+.show img {
     height: auto;
 }
 
@@ -117,12 +104,19 @@ img {
 .soc-icons {
     display: flex;
     flex: 1;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    justify-content: flex-end;
+    
+}
+
+.logoimg {
+    width: 90%;
 }
 
 .header-group {
     display: flex;
-    align-items: center;
+    flex-direction: row;
+
 }
 
 .fa-github-square {

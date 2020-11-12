@@ -3,14 +3,6 @@ window.addEventListener('click', addEventListeners);
 window.addEventListener('scroll', scrollFunction)
 
 
-//  Adding image
-const img = document.createElement("img");
-
-img.src = "logo.png";
-var src = document.getElementById("logo");
-
-src.appendChild(img);
-
 
 function main() {
     startSlideshowAnimation();
