@@ -158,5 +158,25 @@ img {
 
 }
 
+/* Back to top button styling  */
+#topBTN {
+    display: none;
+    position: fixed;
+    bottom: 1rem;
+    right: 1.5rem;
+    z-index: 99;
+    font-size: 1.3rem;
+    border: none;
+    outline: none;
+    background-color: rgb(232, 123, 187);
+    color: white;
+    cursor: pointer;
+    padding: .5rem;
+    border-radius: .3rem;
+  }
+  
+  #topBTN:hover {
+    background-color: rgb(241, 160, 208);
+  }
 
 
