@@ -1,3 +1,4 @@
+/* iPad Pro medium screen */
 @media screen and (max-width: 769px) {
     .logo {
         margin-left: 7rem;
@@ -17,7 +18,7 @@
         text-decoration: underline;
     }
 }
-
+/* iPad medium screen */
 @media screen and (max-width: 767px) {
     .header-menu {
         display: none;
@@ -32,7 +33,6 @@
         justify-content: center;
     }
   
-
     .header-menu li a {
         display: in;
         padding: 0rem 1rem;
@@ -43,6 +43,7 @@
     }
 }
 
+/* Mobile phone - smaller screen */
 @media screen and (max-width: 415px) {
 
     .soc-icons {

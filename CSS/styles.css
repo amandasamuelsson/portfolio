@@ -42,6 +42,75 @@ body {
 .grid-header {
     background-color: #61a07d;
 }
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    color: white;
+}
+
+
+.header-menu li a {
+    display: inline-block;
+    padding: 0rem 1rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: white;   
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hamburger menu */
+.hamburger {
+    border: 0;
+    background-color: transparent;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+    color: #ffffff;
+}
+
+
+/* Logotype  */
+.logo {
+    display: flex;
+    flex: 10;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10rem;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+/* Social media icons  */
+.soc-icons {
+    display: flex;
+    flex: 1;
+    font-size: 2.5rem;
+    justify-content: flex-end;
+}
+
+.logoimg {
+    width: 90%;
+}
+
+.header-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.fa-github-square {
+    margin: 1rem;
+}
+
+.fa-linkedin {
+    margin-top: 1rem;
+    margin-right: .3rem;
+}
 
 /* Styling main */
 
@@ -66,7 +135,6 @@ body {
   }
 
 /* Styling footer */
-
 .grid-footer {
     display: flex;
     justify-content: center;
@@ -75,79 +143,6 @@ body {
     margin: 1rem;
 }
 
-.header-menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style-type: none;
-    color: white;
-}
-
-
-.header-menu li a {
-    display: inline-block;
-    padding: 0rem 1rem;
-    font-weight: 500;
-    font-size: 1.1rem;
-    color: white;   
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-.hamburger {
-    border: 0;
-    background-color: transparent;
-    font-size: 2rem;
-    cursor: pointer;
-    display: none;
-    color: #ffffff;
-}
-
-
-/* Logotype  */
-.logo {
-    display: flex;
-    flex: 10;
-    align-items: center;
-    justify-content: center;
-    margin-left: 10rem;
-    width: 100%;
-    margin-top: 1rem;
-}
-
-.show img {
-    height: auto;
-}
-
-/* Social media icons  */
-.soc-icons {
-    display: flex;
-    flex: 1;
-    font-size: 2.5rem;
-    justify-content: flex-end;
-}
-
-.logoimg {
-    width: 90%;
-}
-
-.header-group {
-    display: flex;
-    flex-direction: row;
-
-}
-
-.fa-github-square {
-    margin: 1rem;
-}
-
-.fa-linkedin {
-    margin-top: 1rem;
-    margin-right: .3rem;
-}
 
 /* Website content */
 h1 {
@@ -158,6 +153,14 @@ h2, p, h3 {
     color: #313131;
 }
 
+.link {
+    color: #313131;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #616161;
+}
 
 .content {
     display: flex;
@@ -168,11 +171,7 @@ h2, p, h3 {
     margin: 2rem;
 }
 
-/* Experience section */
-.experience {
-}
 /* About me section */
-
 .about-box {
     display: flex;
     flex-direction: row;
@@ -189,20 +188,7 @@ h2, p, h3 {
 
 }
 
-
-.link {
-    color: #313131;
-}
-
-.link:hover {
-    text-decoration: underline;
-    color: #616161;
-}
-
 /* Contact section */
-.contact-socicons {
-
-}
 .icons-contact {
     font-size: 3rem;
     color: #61a07d;
