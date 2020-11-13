@@ -11,8 +11,8 @@ body {
     background-size: 100%;
     background-position: center;
     background-repeat: repeat;
-
 }
+
 /* Grid */
 .grid-header { grid-area: header; }
 .grid-main { grid-area: main; }
@@ -64,7 +64,6 @@ body {
     justify-content: center;
     list-style-type: none;
     color: white;
-    
 }
 
 
@@ -134,30 +133,50 @@ a {
 }
 
 /* Website content */
+h2, p, h3 {
+    color: #313131;
+}
+
+
 .content {
     display: flex;
+    flex-direction: column;
     height: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 1rem;
+    margin: 2rem;
 }
+
+/* Experience section */
 .experience {
     height: 40rem;
-    background-color: rgba(255, 255, 255, 0.4);
-    padding: 1rem;
-    margin: 2rem;
-    color: #313131;
-
 }
-
-.about {
+/* About me section */
+.about-box {
     height: 40rem;
-    background-color: rgba(255, 255, 255, 0.4);
-    padding: 1rem;
-    margin: 2rem;
+    display: flex;
+    flex-direction: row;
 }
 
+.about-text {
+    flex: 2;
+}
+
+/* Projects section */
 .projects {
     height: 40rem;
-    background-color: lightsalmon;
 }
+
+.link {
+    color: #313131;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #616161;
+}
+
+/* Contact section */
 .contact {
     height: 40rem;
     background-color: lightgreen;
