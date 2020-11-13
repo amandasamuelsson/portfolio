@@ -60,5 +60,20 @@
         justify-content: center;
         align-items: center;
     }
+ded    .content {
+        padding: 1rem;
+        margin: .4rem;
+    }
+
+    .about-box {
+        flex-direction: column;
+    }
+    .slideshow-container {
+        width: 100%;
+        height: auto;
+    }
+    .about {
+        height: 30rem;
+    }
 
 }

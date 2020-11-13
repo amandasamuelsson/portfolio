@@ -7,7 +7,7 @@ body {
     margin: 0;
     font-family: 'Inter', sans-serif;
     height: 100%;
-    background-image: url(./images/cow2.png);
+    background-image: url(./images/greenbg1.png);
     background-size: 100%;
     background-position: center;
     background-repeat: repeat;
@@ -40,7 +40,7 @@ body {
 /* Styling header */
 
 .grid-header {
-    background-color: #f99ab9;
+    background-color: #61a07d;
 }
 
 /* Styling main */
@@ -142,18 +142,17 @@ h2, p, h3 {
     display: flex;
     flex-direction: column;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.6);
     padding: 1rem;
     margin: 2rem;
 }
 
 /* Experience section */
 .experience {
-    height: 40rem;
 }
 /* About me section */
+
 .about-box {
-    height: 40rem;
     display: flex;
     flex-direction: row;
 }
@@ -163,9 +162,12 @@ h2, p, h3 {
 }
 
 /* Projects section */
-.projects {
-    height: 40rem;
+.projects img {
+    width: 100%;
+    display: flex;
+
 }
+
 
 .link {
     color: #313131;
@@ -178,8 +180,7 @@ h2, p, h3 {
 
 /* Contact section */
 .contact {
-    height: 40rem;
-    background-color: lightgreen;
+
 }
 
 /* Back to top button styling  */
@@ -192,7 +193,7 @@ h2, p, h3 {
     font-size: 1.3rem;
     border: none;
     outline: none;
-    background-color: rgb(232, 123, 187);
+    background-color: #61a07d;
     color: white;
     cursor: pointer;
     padding: .5rem;
@@ -200,7 +201,7 @@ h2, p, h3 {
   }
   
   #topBTN:hover {
-    background-color: rgb(241, 160, 208);
+    background-color: #84bd9e;
   }
 
 
