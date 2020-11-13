@@ -10,6 +10,10 @@ body {
 
 }
 
+.slide-resp { 
+    position: static; 
+}
+
 .slideshow-container > img {
     position: absolute;
     left: 0;
@@ -17,7 +21,7 @@ body {
     width: 100%;
     height: auto;
     opacity: 0;
-    transition: opacity 3s;
+    transition: opacity 2s;
     object-fit: cover;
     object-position: center;
     border-radius: .2rem;
@@ -25,4 +29,5 @@ body {
 
 .slideshow-container .show {
     opacity: 1;
+    position: static;
 }

@@ -176,7 +176,6 @@ h2, p, h3 {
 .about-box {
     display: flex;
     flex-direction: row;
-    height: 35rem;
 }
 
 .about-text {
