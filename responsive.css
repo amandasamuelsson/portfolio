@@ -12,6 +12,10 @@
         font-size: 2rem;
         margin-top: 1rem;
     }
+
+    .link {
+        text-decoration: underline;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -60,7 +64,17 @@
         justify-content: center;
         align-items: center;
     }
-ded    .content {
+
+    .hero-container {
+        background-color: #75c097;
+        height: 10rem;
+        position: relative;
+      }
+      h1 {
+          font-size: 2rem;
+      }
+
+    .content {
         padding: 1rem;
         margin: .4rem;
     }
